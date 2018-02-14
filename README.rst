@@ -16,7 +16,7 @@ Requirements
 How does it look?
 -----------------
 
-.. image:: https://github.com/ets-labs/python-vimrc/wiki/img/screenshot.png
+.. image:: https://github.com/jdelacasa/python-vimrc/wiki/img/screenshot.png
 
 Installation
 ------------
@@ -25,7 +25,7 @@ You can install it by using CLI just have next command executed:
 
 .. code-block:: bash
 
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ets-labs/python-vimrc/master/setup.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/jdelacasa/python-vimrc/master/setup.sh)"
 
 During execution of init script do not worry about error messages. When it
 occurs just press enter and wait till all plugins are installed.
