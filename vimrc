@@ -13,7 +13,7 @@ let $vundle=$vimhome."/bundle/Vundle.vim"
 
 " Be iMproved
 set nocompatible
-
+set mouse=a
 "=====================================================
 "" Vundle settings
 "=====================================================
