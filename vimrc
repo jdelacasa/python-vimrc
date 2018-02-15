@@ -53,6 +53,7 @@ call vundle#begin()
     "-------------------=== Python  ===-----------------------------
     Plugin 'klen/python-mode'                   " Python mode (docs, refactor, lints...)
     Plugin 'scrooloose/syntastic'               " Syntax checking plugin for Vim
+    Plugin 'tmhedberg/SimpylFold'               " Code Folding for python
 
 call vundle#end()                           " required
 filetype on

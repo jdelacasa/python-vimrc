@@ -30,6 +30,9 @@ You can install it by using CLI just have next command executed:
 During execution of init script do not worry about error messages. When it
 occurs just press enter and wait till all plugins are installed.
 
+
+
+
 Autocompletion
 --------------
 
@@ -59,6 +62,12 @@ bindings, but there are some custom key bindings as well:
 
     # Common key bindings:
 
+    <leader>    \
+    
+    <leader>W + Cursor  
+        or 
+    \W + Cursor      # switch pane
+
     inoremap jj     # Esc alternative
     inoremap jk     # Esc alternative
 
@@ -76,3 +85,6 @@ bindings, but there are some custom key bindings as well:
 
     nmap <leader>g :YcmCompleter GoTo<CR>
     nmap <leader>d :YcmCompleter GoToDefinition<CR>
+
+    # Installplugins 
+    :PluginInstall
